@@ -28,7 +28,7 @@ jobs:
         run: npx playwright install chromium --with-deps
 
       - name: Run Smoke Tests
-        run: npx playwright test --grep @smoke
+        run: npx playwright test --grep "@smoke && @api"
         env:
           APP_BASE_URL: ${{ secrets.APP_BASE_URL }}
           API_BASE_URL: ${{ secrets.API_BASE_URL }}
