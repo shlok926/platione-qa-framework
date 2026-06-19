@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env
+.env.qa
+.env.staging
+.env.prod-like
+.env.local
+reports/html/
+reports/junit/
+test-results/
+playwright-report/
+*.js.map
+.DS_Store
+Thumbs.db
+*.tmp
+*.env.local

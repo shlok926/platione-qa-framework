@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "QA Admin User",
+    "email": "qa@platione.com",
+    "role": "admin"
+  },
+  {
+    "id": 2,
+    "name": "Sales Manager",
+    "email": "manager@platione.com",
+    "role": "manager"
+  },
+  {
+    "id": 3,
+    "name": "Sales Agent",
+    "email": "agent@platione.com",
+    "role": "agent"
+  }
+]

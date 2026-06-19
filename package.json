@@ -1,0 +1,45 @@
+{
+  "name": "platione-qa-framework",
+  "version": "1.0.0",
+  "description": "QA Automation Framework for Platione Sales Assist",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:regression": "playwright test --grep @regression",
+    "test:api": "playwright test --grep @api",
+    "test:ui": "playwright test --grep @ui",
+    "test:e2e": "playwright test --grep @e2e",
+    "test:headed": "playwright test --headed",
+    "lint": "eslint src/ tests/ --ext .ts",
+    "typecheck": "tsc --noEmit",
+    "report": "playwright show-report reports/html",
+    "seed:db": "ts-node scripts/seed-db.ts",
+    "seed:api": "ts-node scripts/seed-api.ts",
+    "reset:db": "ts-node scripts/reset-db.ts"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "typescript"
+  ],
+  "author": "Shlok",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@playwright/test": "^1.44.1",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.10.1",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "@typescript-eslint/parser": "^7.13.1",
+    "eslint": "^8.57.0",
+    "prettier": "^3.3.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

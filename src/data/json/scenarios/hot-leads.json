@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Arjun Mehta",
+    "phone": "+919876543210",
+    "email": "arjun.mehta@techcorp.in",
+    "company": "TechCorp India",
+    "status": "active",
+    "score": 95,
+    "stage": "negotiation"
+  },
+  {
+    "name": "Sarah Jenkins",
+    "phone": "+14155552671",
+    "email": "sjenkins@apexsys.com",
+    "company": "Apex Systems Inc",
+    "status": "active",
+    "score": 90,
+    "stage": "proposal"
+  },
+  {
+    "name": "Kenji Tanaka",
+    "phone": "+819012345678",
+    "email": "k.tanaka@nipponsteel.jp",
+    "company": "Nippon Steel Solutions",
+    "status": "active",
+    "score": 85,
+    "stage": "negotiation"
+  },
+  {
+    "name": "Priya Sharma",
+    "phone": "+918888888888",
+    "email": "priya@vertex.com",
+    "company": "Vertex Consulting",
+    "status": "active",
+    "score": 88,
+    "stage": "proposal"
+  },
+  {
+    "name": "Michael Chang",
+    "phone": "+85291234567",
+    "email": "m.chang@hksourcing.com",
+    "company": "HK Sourcing Ltd",
+    "status": "active",
+    "score": 82,
+    "stage": "negotiation"
+  },
+  {
+    "name": "Emma Watson",
+    "phone": "+447700900077",
+    "email": "emma@innovateuk.org",
+    "company": "Innovate UK Ltd",
+    "status": "active",
+    "score": 92,
+    "stage": "proposal"
+  },
+  {
+    "name": "Carlos Gomez",
+    "phone": "+34600123456",
+    "email": "c.gomez@solarenergy.es",
+    "company": "Solar Energy España",
+    "status": "active",
+    "score": 84,
+    "stage": "proposal"
+  },
+  {
+    "name": "Amina Diop",
+    "phone": "+221771234567",
+    "email": "amina.diop@africatrade.sn",
+    "company": "Africa Trade Corp",
+    "status": "active",
+    "score": 87,
+    "stage": "negotiation"
+  },
+  {
+    "name": "Hans Schmidt",
+    "phone": "+491701234567",
+    "email": "h.schmidt@berlintech.de",
+    "company": "Berlin Tech Group GmbH",
+    "status": "active",
+    "score": 89,
+    "stage": "proposal"
+  },
+  {
+    "name": "Rachel Green",
+    "phone": "+12125550199",
+    "email": "rachel@ralphlauren.com",
+    "company": "Ralph Lauren Corp",
+    "status": "active",
+    "score": 98,
+    "stage": "negotiation"
+  }
+]

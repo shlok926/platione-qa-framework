@@ -1,0 +1,92 @@
+[
+  {
+    "name": "John Doe",
+    "phone": "+15555550100",
+    "email": "johndoe@unknown.com",
+    "company": "Stale Corp",
+    "status": "active",
+    "score": 5,
+    "stage": "prospect"
+  },
+  {
+    "name": "Jane Smith",
+    "phone": "+15555550101",
+    "email": "janesmith@inactive.net",
+    "company": "Legacy Systems",
+    "status": "inactive",
+    "score": 10,
+    "stage": "prospect"
+  },
+  {
+    "name": "Vikram Patel",
+    "phone": "+919999911111",
+    "email": "vpatel@closedco.in",
+    "company": "Patel Enterprises",
+    "status": "archived",
+    "score": 2,
+    "stage": "closed_lost"
+  },
+  {
+    "name": "Lucy Gray",
+    "phone": "+447700900011",
+    "email": "lucy@coldleads.co.uk",
+    "company": "Cold Leads Ltd",
+    "status": "active",
+    "score": 12,
+    "stage": "prospect"
+  },
+  {
+    "name": "Dmitry Ivanov",
+    "phone": "+79012345679",
+    "email": "dmitry@stagnant.ru",
+    "company": "Stagnant Solutions",
+    "status": "active",
+    "score": 15,
+    "stage": "prospect"
+  },
+  {
+    "name": "Li Wei",
+    "phone": "+8613912345678",
+    "email": "li.wei@noactivity.cn",
+    "company": "No Activity Co",
+    "status": "active",
+    "score": 8,
+    "stage": "prospect"
+  },
+  {
+    "name": "Alice Cooper",
+    "phone": "+16025550123",
+    "email": "alice@unresponsive.org",
+    "company": "Phoenix Corp",
+    "status": "active",
+    "score": 18,
+    "stage": "prospect"
+  },
+  {
+    "name": "Bob Vance",
+    "phone": "+15705550150",
+    "email": "bob@vancerefrigeration.com",
+    "company": "Vance Refrigeration",
+    "status": "active",
+    "score": 20,
+    "stage": "prospect"
+  },
+  {
+    "name": "Gilles Dupont",
+    "phone": "+33140000000",
+    "email": "g.dupont@nonfunctional.fr",
+    "company": "Dupont et Fils",
+    "status": "inactive",
+    "score": 4,
+    "stage": "closed_lost"
+  },
+  {
+    "name": "Aisha Bello",
+    "phone": "+2348031234567",
+    "email": "aisha@disconnected.ng",
+    "company": "Bello Trading",
+    "status": "active",
+    "score": 11,
+    "stage": "prospect"
+  }
+]
