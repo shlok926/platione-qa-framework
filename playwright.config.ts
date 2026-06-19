@@ -2,8 +2,8 @@ import { defineConfig, devices } from '@playwright/test';
 import dotenv from 'dotenv';
 import path from 'path';
 
-// Load environment variables. Default to .env.qa if DOTENV_CONFIG_PATH is not defined.
-dotenv.config({ path: process.env.DOTENV_CONFIG_PATH || path.resolve(__dirname, '.env.qa') });
+// Load environment variables. Default to .env if DOTENV_CONFIG_PATH is not defined.
+dotenv.config({ path: process.env.DOTENV_CONFIG_PATH || path.resolve(__dirname, '.env') });
 
 export default defineConfig({
   testDir: './tests',
@@ -18,7 +18,7 @@ export default defineConfig({
   ],
 
   use: {
-    baseURL: process.env.APP_BASE_URL,
+    baseURL: process.env.APP_BASE_URL || 'http://localhost:4200',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
