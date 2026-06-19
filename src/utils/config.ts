@@ -24,11 +24,11 @@ export class ConfigManager {
   }
 
   static get appBaseUrl(): string {
-    return this.getOrThrow('APP_BASE_URL');
+    return this.getOrDefault('APP_BASE_URL', 'http://localhost:4200');
   }
 
   static get apiBaseUrl(): string {
-    return this.getOrThrow('API_BASE_URL');
+    return this.getOrDefault('API_BASE_URL', 'http://localhost:8080');
   }
 
   static get dbHost(): string {
@@ -52,11 +52,11 @@ export class ConfigManager {
   }
 
   static get testUserEmail(): string {
-    return this.getOrThrow('TEST_USER_EMAIL');
+    return this.getOrDefault('TEST_USER_EMAIL', 'qa@platione.com');
   }
 
   static get testUserPassword(): string {
-    return this.getOrThrow('TEST_USER_PASSWORD');
+    return this.getOrDefault('TEST_USER_PASSWORD', 'QA_Password123');
   }
 
   static get logLevel(): string {
