@@ -1,4 +1,4 @@
-# 🎭 Platione Sales Assist — QA Automation Framework
+# 🎭 Quallix — QA Automation Framework
 
 Production-ready Playwright + TypeScript automation framework built from scratch for Platione Sales Assist — a SaaS sales productivity platform.
 
