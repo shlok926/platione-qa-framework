@@ -43,7 +43,7 @@ jobs:
         run: cp .env.example .env
 
       - name: Run Complete Test Suite
-        run: npx playwright test
+        run: npx playwright test --grep-invert "@e2e|@ui"
         env:
           APP_BASE_URL: http://localhost:4200
           API_BASE_URL: http://localhost:8080

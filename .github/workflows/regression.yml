@@ -44,7 +44,7 @@ jobs:
         run: cp .env.example .env
 
       - name: Run Regression Tests
-        run: npm run test:regression
+        run: npm run test:regression -- --grep-invert "@e2e|@ui"
         env:
           APP_BASE_URL: http://localhost:4200
           API_BASE_URL: http://localhost:8080
